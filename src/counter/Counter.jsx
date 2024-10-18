@@ -13,7 +13,7 @@ const Counter = () => {
             <button onClick={()=>decrement(value, setValue)}>-1</button>
         </>
     );
-}
+};
 
 const increment = (value, setValue) => {
     setValue(value +1);

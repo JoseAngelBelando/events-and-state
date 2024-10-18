@@ -1,8 +1,11 @@
 
+import Counter from './counter/Counter';
 import Square from './square/Square';
 
 const App = ()=> {
-  return <Square/>;
+  return <div> <Square/>;
+    <Counter></Counter>
+</div>
 };
 
 export default App;
